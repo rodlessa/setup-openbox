@@ -1,1 +1,1 @@
-sudo apt-get install wget git tint2 xcompmgr startx nitrogen volumeicon dusnt thunar lxappearance && wget https://github.com/rodlessa/setup-openbox/blob/master/install.sh && chmod -x install.sh && ./install.sh
+sudo apt-get install wget libdbus-1-dev libx11-dev libxinerama-dev libxrandr-dev libxss-dev libglib2.0-dev libpango1.0-dev libgtk2.0-dev libxdg-basedir-dev git tint2 xcompmgr nitrogen thunar lxappearance && git clone https://github.com/dunst-project/dunst.git && cd dunst && make -j5 && sudo make install
